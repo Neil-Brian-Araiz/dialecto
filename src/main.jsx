@@ -29,7 +29,7 @@ import Video from './content/BasicVid';
 
 const router = createBrowserRouter([
   {
-    path: '/dialecto-main',
+    path: '/dialecto',
     element: <OnBoardingPage />,
     errorElement: <div>404 Not Found</div>
   },
