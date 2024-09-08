@@ -24,7 +24,7 @@ const ContentThree = ({ onCorrect, onIncorrect }) => {
   
   return (
     <div className='content-one-wrapper'>
-        <div className='content-title'>Tap what you hear</div>
+        <div className='content-title title-three'>Tap what you hear</div>
 
         <div className='content-one-container'>
             <div className='speaker-container'>

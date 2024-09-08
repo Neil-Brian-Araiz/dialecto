@@ -333,4 +333,16 @@
         width: 100%;
         padding: 20px;
     }
+    .onboard-header {
+        padding: 0 10px;
+    }
+    .onboard-content {
+        padding: 0 10px;
+    }
+    .page-container p{
+        font-size: .9em;
+    }
+    .page-container {
+        padding: 0 10px;
+    }
 }

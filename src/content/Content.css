@@ -332,4 +332,23 @@
     .mic-btn {
         width: 80%;
     }
+    .content-title {
+        font-size: 1rem;
+        top: 1%;
+    }
+    .img-wrapper {
+        margin-top: 50px;
+    }
+    .title-three {
+        color: #ffffff;
+        top: 1.5%;
+        text-align: center;
+    }
+    .four-title {
+        top: 10%;
+        font-size: 1rem;
+        width: 100%;
+        text-align: center;
+        color: #ffffff;
+    }
 }

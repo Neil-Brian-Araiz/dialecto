@@ -53,4 +53,7 @@ const manifestForPlugin = {
 export default defineConfig({
   base: "/dialecto",
   plugins: [react(), VitePWA({manifestForPlugin, registerType: 'autoUpdate'})],
+  server: {
+    host: true,
+  },
 })

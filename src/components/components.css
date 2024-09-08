@@ -760,4 +760,14 @@ transition: 250ms ease-in-out;
     height: 500px;
     width: 350px;
   }
+  .rec-popup {
+    height: 85vh;
+    padding: 10px;
+  }
+  .rec-popup h6 {
+    font-size: .8em;
+  }
+  .rec-popup h6 span {
+    font-size: 1em;
+  }
 }
