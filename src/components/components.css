@@ -770,4 +770,10 @@ transition: 250ms ease-in-out;
   .rec-popup h6 span {
     font-size: 1em;
   }
+  .onrec, .result {
+    height: 55%;
+  }
+  .onrec h2, .result h2 {
+    font-size: 1.4em;
+  }
 }
