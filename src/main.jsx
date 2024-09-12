@@ -26,10 +26,12 @@ import BasicPhrases from './category/BasicPhrases';
 import ProfilePage from './pages/Profile';
 import ProgressPage from './pages/Progress';
 import Video from './content/BasicVid';
+import AdminHomePage from './dialecto_admin/AdminHome';
+import AdminUserPage from './dialecto_admin/AdminUser';
 
 const router = createBrowserRouter([
   {
-    path: '/dialecto',
+    path: '/dialecto/',
     element: <OnBoardingPage />,
     errorElement: <div>404 Not Found</div>
   },
@@ -96,6 +98,18 @@ const router = createBrowserRouter([
   {
     path: '/dialecto/video',
     element: <Video />
+  },
+  {
+    path: '/dialecto/admin-dashboard',
+    element: <AdminHomePage />
+  },
+  {
+    path: '/dialecto/admin-user',
+    element: <AdminUserPage />
+  },
+  {
+    path: '*',
+    element: <div>404 Not Found</div>
   }
 ]);
 

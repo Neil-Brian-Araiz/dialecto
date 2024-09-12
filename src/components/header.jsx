@@ -66,7 +66,7 @@ const Header = ({ showCategoriesButton, showSwitchButton, bgColor }) => {
             /> 
           </div>
           
-          <Link to='/dialecto'>
+          <Link to='/dialecto/'>
             <Button label='Log out' outline={false} bgColor='var(--secondary-color)' width='230px' />
           </Link>
         </div>
